@@ -1,0 +1,50 @@
+﻿body
+{
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    box-shadow: 0 10px 20px rgba(78, 56, 56, 0.68)
+    }
+
+#main {
+    background-color: ghostwhite;
+    text-align: center;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+#title {
+    
+    background-color: #808080;
+}
+#img-div{
+    margin-top: 15px;
+    margin: -5px;
+    width: 100%;
+    border: 5px solid white;
+}
+
+#image{
+    margin: auto;
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+#image-caption{
+    margin: 10px;
+}
+
+h3{
+    font-size: larger;
+}
+
+#pointers{
+    margin: auto;
+    max-width: 100%;
+    text-align: left;
+}
+
