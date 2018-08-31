@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <p id="description">We are trying to make our sevice better; let us know how we can improve Free Code Camp</p>
+    <div>
+        <form id="survey-form" method="get" action="#">
+            <div class="newrow" id="label1" for="name"> Name: </div>
+            <div class="tabin">
+                <input autofocus autocomplete="on" type="text" name="name" id="name" required placeholder="Please Enter your name" />
+            </div>
+            <div class="newrow" id="label2" for="name"> Email: </div>
+            <div class="tabin">
+                <input autofocus autocomplete="on" type="text" name="email" id="email" required placeholder="Enter your email address" />
+            </div>
+            <div class="newrow" id="label3" for="age"> Age: </div>
+            <div class="tabin">
+                <input autofocus type="number" name="age" id="age" min="13" max="100" required placeholder="Enter your age" />
+            </div>
+            <div class="newrow">
+                <label for="level">Which option best describes you?</label>
+                <select id="drop" name="level">
+                    <option disabled value="Select">Select</option>
+                    <option value="Student">Student</option>
+                    <option value="Full time Job">Full time Job</option>
+                    <option value="Full time learner">Full time learner</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+            <div class="newrow">
+                <label for="satisfaction">Which option best describes how satisfied you are of our service</label>
+                <select id="drop" name="satisfaction">
+                    <option disabled value="Select">Select</option>
+                    <option value="Extremely satisfied"> Extremely satisfied</option>
+                    <option value="satisfied">satisfied</option>
+                    <option value="meh">meh</option>
+                    <option value="dissatisfied">dissatisfied</option>
+                    <option value="Extremely dissatisfied">Extremely dissatisfied</option>
+                </select>
+            </div>
+            <div class="newrow">
+                <label for="recommend">How likely are you to recommend Syfe to a friend?</label>
+            </div>
+            <div class="tabin">
+                <ul style="list-style:none;">
+                    <li class="radio">
+                        <label>
+                            <input name="radio-buttons" value="1" type="radio" class="recommend" />
+                            Definitely
+                        </label>
+                    </li>
+                    <li class="radio">
+                        <label>
+                            <input name="radio-buttons" value="2" type="radio" class="recommend" />
+                            Maybe
+                        </label>
+                    </li>
+                    <li class="radio">
+                        <label>
+                            <input name="radio-buttons" value="3" type="radio" class="recommend" />
+                            Hell No!
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            <div class="newrow">
+                <label for="favorites">What was your favorite part in the entire experience?</label>
+                <select id="drop" name="favorites">
+                    <option disabled value="Select">Select</option>
+                    <option value="Challenges">Challenges</option>
+                    <option value="Community">Community</option>
+                    <option value="Projects">Projects</option>
+                    <option value="Open Source">Open Source</option>
+                </select>
+            </div>
+            <div class="newrow">
+                <label for="chekboxes">
+                    Things that should be improved in the future
+                    (Check all that apply):
+                </label>
+                <div class="tabin">
+                    <ul style="list-style:none">
+                        <li class="checkbox">
+                            <label>
+                                <input name="checkbox" value="1" type="checkbox" class="checkboxes" />
+                                Front-end projects
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="checkbox" value="2" type="checkbox" class="checkboxes" />
+                                Back-end projects
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="checkbox" value="3" type="checkbox" class="checkboxes" />
+                                Data Visualization
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="checkbox" value="4" type="checkbox" class="checkboxes" />
+                                Artificial Intelligence
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="checkbox" value="5" type="checkbox" class="checkboxes" />
+                                Machine Learning
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="checkbox" value="6" type="checkbox" class="checkboxes" />
+                                Challenges
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="checkbox" value="7" type="checkbox" class="checkboxes" />
+                                Open Source Community 
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="checkbox" value="8" type="checkbox" class="checkboxes" />
+                                Gitter Help Room
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="checkbox" value="9" type="checkbox" class="checkboxes" />
+                                Videos
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="checkbox" value="10" type="checkbox" class="checkboxes" />
+                                City meetup
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="checkbox" value="11" type="checkbox" class="checkboxes" />
+                                Wiki
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="checkbox" value="12" type="checkbox" class="checkboxes" />
+                                Forum
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="checkbox" value="13" type="checkbox" class="checkboxes" />
+                                Quantum Computing
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="checkbox" value="14" type="checkbox" class="checkboxes" />
+                                Other courses
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="newrow" id="label4" for="comment">Any additional comments or suggestions are welcome</div>
+                <div class="tabin">
+                    <input autofocus autocomplete="on" type="text" name="name" id="comment" required placeholder="Enter your comment or suggestios" />
+                </div>
+                <div class="newrow" id="button">
+                    <button id="submit" type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
