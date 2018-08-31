@@ -6,7 +6,7 @@
     background-color: black;
     color: white;
     opacity: 0.5;
-    box-shadow: 0 10px 20px rgba(78, 56, 56, 0.68)
+    box-shadow: 0 10px 20px rgba(78, 56, 56, 0)
     }
 
 #main {
@@ -17,8 +17,8 @@
 }
 
 #title {
-    
     background-color: #808080;
+    color: auto;
 }
 #img-div{
     margin-top: 15px;
@@ -46,5 +46,7 @@ h3{
     margin: auto;
     max-width: 100%;
     text-align: left;
+    list-style-type: square;
+
 }
 
