@@ -1,4 +1,65 @@
-﻿body
-{
+﻿body {
+    background-color: #808080;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkslategrey;
+    min-width: 320px;
 }
 
+#title{
+    text-align: inherit;
+    color: yellowgreen;
+    background-color: palevioletred;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px 0px -10px 0px;
+}
+
+#description{
+    text-align: center;
+}
+
+#survey-form{
+    background-color: aliceblue;
+}
+
+.newrow {
+    
+}
+
+.label{ 
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.tabin {
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.recommend, input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+}
+
+
+#comment {
+    height: 50px;
+    resize: vertical;
+}
+
+#submit{
+    background-color: aqua;
+    border-radius: 4px;
+    color: wheat;
+    height: 40px;
+    font-size: 1em;
+    width: 100px;
+    margin: 10px;
+    border: 0px solid;
+}
