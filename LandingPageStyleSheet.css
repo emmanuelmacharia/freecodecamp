@@ -1,0 +1,40 @@
+﻿body {
+    text-align: center;
+    background-image: url(https://www.planwallpaper.com/static/images/blurry-lights-background.jpg)
+}
+
+#header {
+    background-color: rgb(102, 176, 144);
+    margin: auto;
+    position: relative;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#header-image{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    flex-wrap: wrap;
+}
+
+.nav{
+    list-style-type: none;
+}
+
+.nav-link{
+    float: left;
+    width: 25%;
+}
+
+article{
+    margin: 10px;
+}
+
+video{
+    width: 400px;
+
+}
