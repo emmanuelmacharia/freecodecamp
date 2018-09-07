@@ -1,87 +1,120 @@
-﻿<!DOCTYPE html>
+﻿<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
+<!--
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding!
+
+- The freeCodeCamp Team
+
+-->
+<!--
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding!
+
+- The freeCodeCamp Team
+
+-->
+<!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="LandingPageStyleSheet.css" />
     <title>Redox</title>
 </head>
+
 <body>
-    <header id="header">
-        <div class="logo">
-            <img src="https://theinspiredclassroom.com/wp-content/uploads/2013/03/music-notes-swirl1.jpg" id="header-image" alt="redox-logo" />
-        </div>
-        <h1>Redox</h1>
-        <nav id="nav-bar">
-            <!-- <button type="button">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-     </button>-->
-            <ul class="nav">
-                <li class="nav-link"><a href="#Redox">Telemetree</a></li>
-                <li class="nav-link"><a href="#aboutus">About us</a></li>
-                <li class="nav-link"><a href="#form">Log in</a></li>
-                <li class="nav-link"><a href="#subscribe">contacts</a></li>
-                &nbsp;
-            </ul>
-            <form class="glyphicon-search" role="search" action="#">
-                <div class="searchbar">
-                    <input type="text" value="" placeholder="search" name="q" />
-                    <button class="button" type="submit">Search</button>
-                </div>
+    <div class="landing-page">
+        <header id="header">
+            <div class="logo">
+                <img src="https://theinspiredclassroom.com/wp-content/uploads/2013/03/music-notes-swirl1.jpg" id="header-img" alt="redox-logo" />
+            </div>
+
+            <div class="header">
+                <h1>Redox</h1>
+            </div>
+            <nav id="nav-bar">
+                <!-- <button type="button">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>-->
+                <ul class="nav">
+                    <li><a class="nav-link" href="#redox">Redox</a></li>
+                    <li><a class="nav-link" href="#videos">Who We Are</a></li>
+                    <li><a class="nav-link" href="#aboutus">About Us</a></li>
+                    <li><a class="nav-link" href="#subscribe">Sign Up</a></li>
+                    &nbsp;
+                </ul>
+                <form role="search" action="#">
+                    <div>
+                        <input type="text" value="" placeholder="search" name="q" />
+                        <button type="submit">Search</button>
+                    </div>
                 </form>&nbsp;
-            
-        </nav>
-    </header>
+            </nav>
+        </header>
 
-    <article>
-        <p id="Redox">
-            Donec at nibh porttitor orci suscipit scelerisque.
-            Pellentesque maximus turpis nec suscipit auctor.
-            Aliquam nulla nulla, commodo non porttitor eget, pharetra sit amet orci. 
-            Praesent ut diam bibendum, ullamcorper nisi vitae, condimentum urna.
-            <br />
-            Vestibulum ante turpis, mollis a sollicitudin ut, commodo vitae erat.
-            Cras malesuada dui ante.
-            Phasellus condimentum nunc magna, sed aliquam augue accumsan id.
-            Phasellus maximus orci nec sem ornare, nec consectetur eros aliquet.
-            Quisque consectetur condimentum purus, vitae placerat urna viverra a.
-            Sed posuere ornare ipsum, eu hendrerit urna suscipit a.
+        <article>
+            <section>
+                <h2 id="redox"> Redox</h2>
+                Donec at nibh porttitor orci suscipit scelerisque. Pellentesque maximus turpis nec suscipit auctor. Aliquam nulla nulla, commodo non porttitor eget, pharetra sit amet orci. Praesent ut diam bibendum, ullamcorper nisi vitae, condimentum urna.
+                <br /> Donec at nibh porttitor orci suscipit scelerisque. Pellentesque maximus turpis nec suscipit auctor. Aliquam nulla nulla, commodo non porttitor eget, pharetra sit amet orci. Praesent ut diam bibendum, ullamcorper nisi vitae, condimentum
+                urna.
+                <br /> Donec at nibh porttitor orci suscipit scelerisque. Pellentesque maximus turpis nec suscipit auctor. Aliquam nulla nulla, commodo non porttitor eget, pharetra sit amet orci. Praesent ut diam bibendum, ullamcorper nisi vitae, condimentum
+                urna.
+                <br /> Vestibulum ante turpis, mollis a sollicitudin ut, commodo vitae erat. Cras malesuada dui ante. Phasellus condimentum nunc magna, sed aliquam augue accumsan id. Phasellus maximus orci nec sem ornare, nec consectetur eros aliquet. Quisque
+                consectetur condmentum purus, vitae placerat urna viverra a. Sed posuere ornare ipsum, eu hendrerit urna suscipit a.
+            </section>
+            <section id="whoweare">
+                <h2 id=videos> GOT </h2>
+                <div id="videoos">
+                    <!--<object width="425" height="344" data="https://www.youtube.com/embed/F9Bo89m2f6g"></object>
+                              <embed src="https://youtube.com/embed/F9Bo89m2f6g" allowfullscreen="true" width="425" height="344">-->
 
-        </p>
-        <video controls autoplay>
-            <source src="C:\Users\Marsha11\Downloads\twitter.ts" type="video/mp4"/>
-            Don't know what's wrong here
-        </video>
-        <p id="aboutus">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Cras sit amet velit eu mi sollicitudin efficitur quis vel risus. 
-            Proin id pellentesque arcu. Proin sollicitudin, 
-            nunc eget pellentesque consequat, leo velit fermentum nulla, at ullamcorper ipsum nulla at enim. 
-            <br />
-            Suspendisse sollicitudin purus ut bibendum sodales. 
-            Ut mattis arcu vel nulla varius, posuere malesuada dui efficitur. 
-            Donec ac sagittis leo. Quisque nec viverra ex. Morbi semper vulputate ex non lacinia. 
-            Phasellus finibus, neque ac ornare tempor, lacus est pulvinar mi, 
-            non ornare lectus dui iaculis lectus. Aenean convallis luctus efficitur.
-        </p>
-        <div class="form">
-            <form id="form">
-                <div class="label">
-                    <label id="label">Enter your email for more</label>
+                    <iframe id="video" src="https://www.youtube.com/embed/F9Bo89m2f6g" height="344" width="425" allowfullscreen></iframe>
                 </div>
-                <div class="input">
-                    <input class="submit" type="email" autofocus autocomplete="on" placeholder="someone@somewhere.com" />
+                Donec at nibh porttitor orci suscipit scelerisque. Pellentesque maximus turpis nec suscipit auctor. Aliquam nulla nulla, commodo non porttitor eget, pharetra sit amet orci. Praesent ut diam bibendum, ullamcorper nisi vitae, condimentum urna.
+                <br /> Donec at nibh porttitor orci suscipit scelerisque. Pellentesque maximus turpis nec suscipit auctor. Aliquam nulla nulla, commodo non porttitor eget, pharetra sit amet orci. Praesent ut diam bibendum, ullamcorper nisi vitae, condimentum
+                urna.
+                <br /> orem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet velit eu mi sollicitudin efficitur quis vel risus. Proin id pellentesque arcu. Proin sollicitudin, nunc eget pellentesque consequat, leo velit fermentum nulla, at ullamcorper
+                ipsum nulla at enim.
+                <br /> orem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet velit eu mi sollicitudin efficitur quis vel risus. Proin id pellentesque arcu. Proin sollicitudin, nunc eget pellentesque consequat, leo velit fermentum nulla, at ullamcorper
+                ipsum nulla at enim.
+                <br />
+            </section>
+            <section>
+                <h2 id="aboutus"> About Us</h2>
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet velit eu mi sollicitudin efficitur quis vel risus. Proin id pellentesque arcu. Proin sollicitudin, nunc eget pellentesque consequat, leo velit fermentum nulla, at ullamcorper ipsum
+                nulla at enim.
+                <br /> Suspendisse sollicitudin purus ut bibendum sodales. Ut mattis arcu vel nulla varius, posuere malesuada dui efficitur. Donec ac sagittis leo. Quisque nec viverra ex. Morbi semper vulputate ex non lacinia. Phasellus finibus, neque ac ornare
+                tempor, lacus est pulvinar mi, non ornare lectus dui iaculis lectus. Aenean convallis luctus efficitur. orem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet velit eu mi sollicitudin efficitur quis vel risus. Proin id pellentesque
+                arcu. Proin sollicitudin, nunc eget pellentesque consequat, leo velit fermentum nulla, at ullamcorper ipsum nulla at enim.
+                <br /> orem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet velit eu mi sollicitudin efficitur quis vel risus. Proin id pellentesque arcu. Proin sollicitudin, nunc eget pellentesque consequat, leo velit fermentum nulla, at ullamcorper
+                ipsum nulla at enim.
+                <br /> orem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet velit eu mi sollicitudin efficitur quis vel risus. Proin id pellentesque arcu. Proin sollicitudin, nunc eget pellentesque consequat, leo velit fermentum nulla, at ullamcorper
+                ipsum nulla at enim.
+                <br />
+            </section>
+            <section>
+                <h2 id="subscribe"> Sign Up</h2>
+                <div class="form">
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <label id="label">Enter your email for more information</label>
+                        <input id="email" type="email" autofocus autocomplete="on" placeholder="someone@somewhere.com" /> 
+                        <input id="submit" type="submit" class='btn' value='subscribe' />
+                    </form>
                 </div>
-                <button class="button" type="submit" id="subscribe">
-                    <a href="https://www.freecodecamp.com/email-submit">Subscribe</a>
-                </button>
-            </form>
-        </div>
-
-    </article>
-
+            </section>
+        </article>
+    </div>
 </body>
+
 </html>

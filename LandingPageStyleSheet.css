@@ -1,4 +1,5 @@
-﻿body {
+﻿body, .landing-page {
+    align-content: center;
     text-align: center;
     background-image: url(https://www.planwallpaper.com/static/images/blurry-lights-background.jpg)
 }
@@ -6,35 +7,74 @@
 #header {
     background-color: rgb(102, 176, 144);
     margin: auto;
-    position: relative;
+    position: fixed;
     top: 0;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding-top: 10px;
 }
 
-#header-image{
+@media screen and (min-width: 200px) {
+    #header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-link {
+        float: left;
+        width: 25%;
+    }
+
+    #header-img {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+    }
+
+    #video {
+        flex-wrap: wrap;
+    }
+}
+
+#header-img {
     position: absolute;
     height: 20px;
     width: 20px;
+    display: flex;
     flex-wrap: wrap;
 }
 
-.nav{
+.nav {
     list-style-type: none;
 }
 
-.nav-link{
+nav {
+    position: inherit;
+    top: 0;
+    padding-top: 5px;
+    margin: 5px;
+}
+
+button::selection {
+    background-color: aqua;
+}
+
+
+.nav-link {
     float: left;
-    width: 25%;
+    width: 20%;
 }
 
-article{
-    margin: 10px;
+article {
+    margin: 50px;
 }
 
-video{
-    width: 400px;
+#submit {
+    background-color: aqua;
+}
 
+#video {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
