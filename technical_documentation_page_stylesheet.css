@@ -1,0 +1,21 @@
+﻿/*body
+{
+    text-align: center;
+}
+
+nav{
+    text-align: center
+}
+
+#main_doc{
+    text-align: center;
+}
+
+div{
+    align-content: center;
+}
+*/
+
+.nav_items {
+    list-style: none;
+}
